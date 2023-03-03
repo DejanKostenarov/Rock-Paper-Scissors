@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+    <body>
+      
+  
+    <div class="container">
+      <nav>
+        <h2 class="title-style">🤘 / 🧻 / ✂
+        </h2>
+        <h1 class="title">LET'S PLAY</h1>
+      </nav>
+      <main>
+        <div class="main--wrap">
+           <div class="buttons--wrap">
+             <button class="btn-style" id="rockBtn">🤜</button>
+             <button class="btn-style" id="paperBtn">✋</button>
+             <button class="btn-style" id="scissorsBtn">✌</button>
+           </div>
+          <div class="selected--choice">
+            <div class="player--choice">
+              <h2>Human: <span class="player--score">0</span></h2>
+            </div>
+            <div class="computerChoice">
+              <h2>Computer: <span class="computer--score">0</span></h2>
+            </div>
+          </div>
+          <div id="result">
+            <div id="playerChoicePrint" class="player--move"></div>
+            <div id="cpuChoicePrint" class="computer--move"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
